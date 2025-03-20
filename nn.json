@@ -10,6 +10,7 @@
                 "/usr/src/linux-headers-$(uname -r)/arch/x86/include",
                 "/usr/src/linux-headers-$(uname -r)/arch/x86/include/generated",
                 "/lib/modules/$(uname -r)/build/include",
+                "/lib/modules/$(uname -r)/build/include/linux",
                 "/lib/modules/$(uname -r)/build/include/uapi",
                 "/lib/modules/$(uname -r)/build/include/generated",
                 "/home/omar/linux_device_drivers"
