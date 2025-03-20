@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/src/linux-headers-$(uname -r)/include",
+                "/usr/src/linux-headers-$(uname -r)/arch/x86/include",
+                "/usr/src/linux-headers-$(uname -r)/arch/x86/include/generated",
+                "/lib/modules/$(uname -r)/build/include",
+                "/lib/modules/$(uname -r)/build/include/uapi",
+                "/lib/modules/$(uname -r)/build/include/generated",
+                "/home/omar/linux_device_drivers"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
